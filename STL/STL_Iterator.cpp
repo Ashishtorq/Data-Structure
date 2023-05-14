@@ -18,5 +18,11 @@ for(i = v.begin(); i!=v.end(); i++)
 {
     cout<<(*i)<<endl;
 }
+// These for loop is minimised below
+for (int value : v)
+{
+    cout<<value<<" ";
+}
+cout<<endl;
    return 0;
 }
