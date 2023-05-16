@@ -1,20 +1,16 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-void reverseArray(int arr[], int n)
+void swapAlter(int arr[], int n)
 {
-
-    
+    int i=0;
+    int j=i+1;
+    while(j<n)
     {
-        int i = 0;
-        int j = n - 1;
-        while (i <= j)
-        {
-
-            swap(arr[i], arr[j]);
-            i++;
-            j--;
-        }
+        swap(arr[i],arr[j]);
+        j = j+2;
+        i = i+2;
     }
+
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << "   ";
@@ -30,6 +26,6 @@ int main()
     {
         cin >> arr[i];
     }
-    reverseArray(arr, n);
+    swapAlter(arr,n);
     return 0;
 }
