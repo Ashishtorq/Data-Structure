@@ -1,10 +1,11 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-int main() {
+int main() 
+{
  int arr[] = {1,2,1,3,3,6};
- unordered_map<int,int> mp;
- for (int i=0; i<sizeof(arr); i++)
+ map<int,int> mp;
+ for (int i=0; i<sizeof(arr)/sizeof(arr[0]); i++)
  {
      mp[arr[i]]++;
  }
