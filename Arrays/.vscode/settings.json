@@ -4,5 +4,7 @@
         "chrono": "cpp",
         "algorithm": "cpp"
     },
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true
 }
