@@ -7,7 +7,7 @@ int first_occurance(int arr[], int n, int k)
     int mid = (s + e) / 2;
     int ans = -1;
     while (s <= e)
-    {
+    {  
         if (arr[mid] == k)
         {
             ans = mid;
