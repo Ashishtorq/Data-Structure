@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    // int arr[];
+    // int arr[];n
     int n;
     cout << "Entet the size of array" << endl;
     cin >> n;
