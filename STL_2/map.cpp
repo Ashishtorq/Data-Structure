@@ -13,5 +13,9 @@ int main()
         cout<<i.first<<" "<<i.second<<endl;
     }
     cout<<"is 13 present "<<m.count(13)<<endl;
+    m.erase(2);
+    for(auto i : m){
+        cout<<i.first<<" "<<i.second<<endl;
+    }
     return 0;
 }
